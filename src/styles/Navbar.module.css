@@ -1,0 +1,40 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.navLinks a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navLinks a:hover {
+  color: #666;
+}
